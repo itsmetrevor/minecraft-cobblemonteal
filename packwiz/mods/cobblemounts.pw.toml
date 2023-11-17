@@ -1,0 +1,13 @@
+name = "Cobblemounts"
+filename = "cobblemounts-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cj8jrU7n/versions/4SOuM3y0/cobblemounts-1.1.2.jar"
+hash-format = "sha1"
+hash = "abff8f43f310dc11829e2b4230f69ba85155680a"
+
+[update]
+[update.modrinth]
+mod-id = "Cj8jrU7n"
+version = "4SOuM3y0"

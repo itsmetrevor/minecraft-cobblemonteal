@@ -1,0 +1,13 @@
+name = "Cobblemon Unimplemented Items"
+filename = "cobblemon-unimplementeditems-1.4-fabric-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3ef390fd60fbbcd2d3d53cc08c9e357dc0a090a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4840959
+project-id = 891867

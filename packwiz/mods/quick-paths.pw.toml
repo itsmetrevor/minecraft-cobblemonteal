@@ -1,0 +1,13 @@
+name = "Quick Paths"
+filename = "quickpaths-1.20.1-3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94a4089f008a190d9215f66c16c35082de3780f9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4851994
+project-id = 382877

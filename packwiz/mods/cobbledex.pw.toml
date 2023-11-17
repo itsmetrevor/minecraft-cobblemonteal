@@ -1,0 +1,13 @@
+name = "CobbleDex"
+filename = "CobbledDex-Beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ndHMQRdh/versions/Xd43k1Ha/CobbledDex-Beta.jar"
+hash-format = "sha1"
+hash = "891a7f0c11c9e4d8d8499f7f44689cff0e7c578e"
+
+[update]
+[update.modrinth]
+mod-id = "ndHMQRdh"
+version = "Xd43k1Ha"

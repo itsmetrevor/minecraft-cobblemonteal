@@ -1,0 +1,16 @@
+[restrictions]
+talkRange = 48
+shoutTalkRange = 100000
+shoutFoodCost = 0
+opAsPlayer = true
+[miscellaneous]
+prefix = ""
+usePrefix = false
+rangeNotifier = false
+[color_codes]
+bracketColor = "§6"
+angleBraceColor = "§7"
+posColor = "§e"
+nameColor = "§f"
+bodyColor = "§f"
+defaultColor = "§f"

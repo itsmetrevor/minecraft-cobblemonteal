@@ -1,0 +1,102 @@
+version: '3.8'
+
+services:
+
+  cobblemon:
+    hostname: cobblemonteal
+    image: itzg/minecraft-server
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    ports:
+      - "25565:25565/tcp"
+      - "25565:25565/udp"
+      - "24454:24454/udp"
+    environment:
+      PACKWIZ_URL: https://raw.githubusercontent.com/itsmetrevor/minecraft-cobblemonteal/packstable/packwiz/pack.toml
+      EULA: true
+      ENABLE_AUTOPAUSE: true
+      AUTOPAUSE_TIMEOUT_EST: 600
+      ENABLE_ROLLING_LOGS: true
+      OVERRIDE_SERVER_PROPERTIES: true
+      TYPE: FABRIC
+      DEBUG: false
+      VERSION: 1.20.1
+      FABRIC_LAUNCHER_VERSION: 0.11.2
+      FABRIC_LOADER_VERSION: 0.14.23
+      INIT_MEMORY: 1G
+      MAX_MEMORY: 14G
+
+      # server.properties
+      ENABLE_JMX_MONITORING: false
+      RCON_PORT: 25575
+      SEED: -8684294706305429223
+      GAMEMODE: survival
+      ENABLE_COMMAND_BLOCK: false
+      ENABLE_QUERY: false
+      GENERATOR_SETTINGS: '{}'
+      ENFORCE_SECURE_PROFILE: false
+      LEVEL: world
+      MOTD: A Cobblemon Teal Server
+      QUERY_PORT: 25565
+      PVP: true
+      GENERATE_STRUCTURES: true
+      MAX_CHAINED_NEIGHBOR_UPDATES: 1000000
+      DIFFICULTY: easy
+      NETWORK_COMPRESSION_THRESHOLD: 256
+      MAX_TICK_TIME: -1
+      REQUIRE_RESOURCE_PACK: false
+      USE_NATIVE_TRANSPORT: true
+      MAX_PLAYERS: 20
+      ONLINE_MODE: true
+      ENABLE_STATUS: true
+      ALLOW_FLIGHT: true
+      BROADCAST_RCON_TO_OPS: true
+      VIEW_DISTANCE: 14
+      SERVER_IP: ''
+      RESOURCE_PACK_PROMPT: ''
+      ALLOW_NETHER: true
+      SERVER_PORT: 25565
+      ENABLE_RCON: true
+      SYNC_CHUNK_WRITES: true
+      OP_PERMISSION_LEVEL: 4
+      PREVENT_PROXY_CONNECTIONS: false
+      HIDE_ONLINE_PLAYERS: false
+      RESOURCE_PACK: ''
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: 100
+      SIMULATION_DISTANCE: 10
+      RCON_PASSWORD: 'funnyrconpassword'
+      PLAYER_IDLE_TIMEOUT: 0
+      FORCE_GAMEMODE: true
+      RATE_LIMIT: 0
+      HARDCORE: false
+      WHITE_LIST: false
+      BROADCAST_CONSOLE_TO_OPS: true
+      SPAWN_NPCS: true
+      PREVIEWS_CHAT: false
+      SPAWN_ANIMALS: false
+      FUNCTION_PERMISSION_LEVEL: 2
+      LEVEL_TYPE: minecraft\:normal
+      TEXT_FILTERING_CONFIG: ''
+      SPAWN_MONSTERS: false
+      ENFORCE_WHITELIST: false
+      SPAWN_PROTECTION: 0
+      RESOURCE_PACK_SHA1: ''
+      MAX_WORLD_SIZE: 50000
+
+  mcbackup:
+    image: itzg/mc-backup
+    depends_on:
+      cobblemon:
+        condition: service_healthy
+    environment:
+      RCON_HOST: cobblemon
+      RCON_PASSWORD: 'funnyrconpassword'
+      RCON_RETRY_INTERVAL: 30s
+      RCON_RETRIES: -1
+      BACKUP_INTERVAL: 2h
+      PAUSE_IF_NO_PLAYERS: true
+      INITIAL_DELAY: 0
+    volumes:
+      - ./data:/data:ro
+      - ./backups:/backups

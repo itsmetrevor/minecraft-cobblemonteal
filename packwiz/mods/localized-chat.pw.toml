@@ -1,0 +1,13 @@
+name = "Localized Chat"
+filename = "LocalizedChat-fabric-1.20.1-5.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c753850c1331dcc813dd519673289f5fffd9b292"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4845674
+project-id = 292502

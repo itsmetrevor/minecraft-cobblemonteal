@@ -1,0 +1,13 @@
+name = "Cobblemore"
+filename = "cobblemore-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ONpy4L27/versions/GdJz1h40/cobblemore-1.1.1.jar"
+hash-format = "sha1"
+hash = "7439d96e591cdbd33e6ad21e519a28aaef852da2"
+
+[update]
+[update.modrinth]
+mod-id = "ONpy4L27"
+version = "GdJz1h40"

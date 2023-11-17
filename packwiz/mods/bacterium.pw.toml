@@ -1,0 +1,13 @@
+name = "Bacterium"
+filename = "roughly-searchable-2.6.0+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7fa3ad667462f910f55ee09ff932dd33e8d901b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4753963
+project-id = 388458

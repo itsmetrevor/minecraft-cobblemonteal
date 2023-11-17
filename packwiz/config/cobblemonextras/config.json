@@ -1,0 +1,15 @@
+{
+  "permissionlevels": {
+    "command.poketrade": 4,
+    "command.pokesee": 1,
+    "command.pokeseeother": 4,
+    "command.pc": 4,
+    "command.pokeshout": 1,
+    "command.compsee": 1,
+    "command.compseeother": 4,
+    "command.battle": 4,
+    "command.pokebattle": 4,
+    "command.comptake": 4,
+    "command.pokeivs": 4
+  }
+}

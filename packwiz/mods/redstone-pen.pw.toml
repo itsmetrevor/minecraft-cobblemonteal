@@ -1,0 +1,13 @@
+name = "Redstone Pen"
+filename = "redstonepen-1.20.1-fabric-1.5.23.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "36cb425ee4f3e585fe9af6d4c4fedf9635d331ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4745120
+project-id = 461710

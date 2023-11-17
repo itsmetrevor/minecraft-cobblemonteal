@@ -1,0 +1,596 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = cm_lapras
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 737
+  action = movebutton
+  y = -155
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 212
+  action = resizebutton
+  height = 41
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-right
+  x = -45
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  seconds = 2.75
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 846
+  action = movebutton
+  y = -219
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 91
+  action = resizebutton
+  height = 43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-right
+  x = -155
+  action = movebutton
+  y = -285
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 93
+  action = resizebutton
+  height = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/cm_textures/exit_hover.png
+  backgroundnormal = resources/cm_textures/exit_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-right
+  x = -22
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 2.75
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 26
+  action = movebutton
+  y = -75
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 212
+  action = resizebutton
+  height = 43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-left
+  x = 374
+  action = movebutton
+  y = 128
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 75bc25e9-8a26-4b1d-8b58-f839bec6c1821680902791267
+  y = 528
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = b52b2aac-a5e6-445d-9be5-ec7212f1d6301680902791283
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = -10000
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 8789c1f2-847e-4970-8805-4f61e29fde021680902791283
+  y = -10000
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = faf99691-e5b5-42bf-847b-14b2deb827431680902791283
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-left
+  delayappearanceseconds = 2.5
+  path = resources/cm_textures/cm_menu.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 264
+  action = addtexture
+  actionid = 307d2bd7-526c-4d3a-9809-6c638fc4b2f11680904779661
+  y = -80
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 299
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 2.0
+  path = resources/cm_textures/cm_title.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 159
+  width = 463
+  action = addtexture
+  actionid = 31334029-10a0-4584-ac85-9e4a8d8361b21680903736170
+  y = 39
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 1.9
+  path = resources/cm_textures/cm_logo.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 29
+  width = 120
+  action = addtexture
+  actionid = 3a4aa845-5070-45b8-bc2a-810b8396f66d1680903711999
+  y = 28
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 120
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.65
+  buttonaction = mimicbutton;net.minecraft.class_442:button_compatibility_id:mc_titlescreen_singleplayer_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/button_hover.png
+  label = Single Player
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 26
+  width = 212
+  action = addbutton
+  actionid = 79a9bf34-dd4c-4e26-9e1b-66b7b1f577611680905829959
+  y = -68
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/button.png
+  delayappearanceeverytime = false
+  height = 42
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.75
+  buttonaction = mimicbutton;net.minecraft.class_442:button_compatibility_id:mc_titlescreen_multiplayer_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/button_hover.png
+  label = Multiplayer
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 27
+  width = 212
+  action = addbutton
+  actionid = 03ecb238-0067-40e6-8987-ffef076582b51680905964712
+  y = -16
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/button.png
+  delayappearanceeverytime = false
+  height = 42
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.5
+  buttonaction = mimicbutton;net.minecraft.class_442:button_compatibility_id:mc_titlescreen_quit_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/exit_hover.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Exit Game
+  fadein = true
+  fadeinspeed = 1.0
+  x = 10
+  width = 64
+  action = addbutton
+  actionid = f5bec8b8-b9bd-4530-84d0-31f20f1a27041680906054558
+  y = -80
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/exit_button.png
+  delayappearanceeverytime = false
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.75
+  buttonaction = mimicbutton;net.minecraft.class_442:button_compatibility_id:mc_titlescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/option_hover.png
+  label = Options
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 105
+  width = 55
+  action = addbutton
+  actionid = 8240814f-2642-49ff-8389-a766088a0a961680906226701
+  y = 97
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/option_button.png
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.85
+  buttonaction = openlink;https://discord.gg/cobblemon%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/button_hover.png
+  description = Opens link in browser.
+  label = Discord
+  loopbackgroundanimations = true
+  hoverlabel = Click to join the official Discord!
+  fadein = true
+  fadeinspeed = 1.0
+  x = 26
+  width = 212
+  action = addbutton
+  actionid = 3b098015-a3c0-40cd-873f-d3b98110ae741680906452058
+  y = 33
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/button.png
+  delayappearanceeverytime = false
+  height = 42
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  delayappearanceseconds = 3.0
+  rotation = 0.0
+  scale = 2.0
+  refresh = true
+  bouncing = true
+  fadein = true
+  vanilla-like = true
+  fadeinspeed = 1.0
+  x = 338
+  actionid = 85e7976d-6324-4663-a925-509d46d6f5071680907125861
+  action = addsplash
+  y = 108
+  delayappearance = true
+  text = Macroscopic!
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.75
+  buttonaction = mimicbutton;net.minecraft.class_442:button_compatibility_id:modmenu_titlescreen_mods_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/option_hover.png
+  label = Mods
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][req_id:b722e001-65b4-43c5-b1ad-09874efce5661680929493131] = modmenu
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 179
+  width = 55
+  action = addbutton
+  actionid = 8050a105-5075-44d6-b8dd-dd101808201a1680929335316
+  y = 97
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/option_button.png
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = music
+  audio_source:fbdd52e3-6f78-4c72-ad37-f1043f859d501680988990108 = resources/cm_audio/NorthProvince.ogg;EXTERNAL_LOCAL;100;0
+  x = 670
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = b7882ab9-f4e7-4301-bb24-dc39676996de1680932675029
+  y = 25
+  once_per_session = false
+  height = 50
+}
+
+customization {
+  orientation = top-right
+  delayappearanceseconds = 3.75
+  fadein = true
+  fadeinspeed = 1.0
+  name = cm_1_3_update
+  x = -239
+  width = 236
+  actionid = 45e2fa75-b77a-487d-a025-2b49e4b3d3051680935133073
+  action = addslideshow
+  y = 18
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 145
+}
+
+customization {
+  orientation = bottom-centered
+  basecolor = #ffff00
+  shadow = true
+  delayappearanceseconds = 5.0
+  rotation = 0.0
+  scale = 1.5
+  refresh = false
+  bouncing = false
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  x = -40
+  actionid = f5d927b3-c254-4f0f-a1dc-dee137f8055d1680938569760
+  action = addsplash
+  y = -27
+  delayappearance = true
+  text = Now Playing: Northern Province - Orchestral Arrangement by [Pokestir]
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 5.0
+  buttonaction = openlink;https://youtu.be/JKOdhH8L_08%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/option_hover_b.png
+  description = Open song in Youtube.
+  label = ♫
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = -21
+  width = 42
+  action = addbutton
+  actionid = 3c4ec2b4-a076-4179-a980-bda2c97305ac1680938666764
+  y = -17
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/option_button_b.png
+  delayappearanceeverytime = false
+  height = 17
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.75
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:forge_titlescreen_mods_button%btnaction_splitter_fm%
+  backgroundhovered = resources/cm_textures/option_hover.png
+  label = Mods
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][req_id:c5cbb511-e05b-4dc3-9fd3-01ce51a07ea01681600226066] = forge
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 179
+  width = 55
+  action = addbutton
+  actionid = 43e53850-89db-4d5f-8432-75d583f3992c1681600095897
+  y = 367
+  delayappearance = true
+  backgroundnormal = resources/cm_textures/option_button.png
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-right
+  enable_scrolling = false
+  shadow = true
+  delayappearanceseconds = 300.0
+  scale = 1.3
+  source = Credits:
+  text_border = 4
+  case_mode = normal
+  fadein = true
+  source_mode = direct
+  line_spacing = 2
+  fadeinspeed = 1.0
+  x = -201
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 46b7f768-abfc-4d5a-b10a-d4e314829d261681600771710
+  y = -108
+  delayappearance = true
+  alignment = right
+  base_color = ffffff
+  delayappearanceeverytime = true
+  height = 18
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 300.0
+  path = resources/cm_textures/grad.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -168
+  width = 154
+  action = addtexture
+  actionid = 00133973-f9ca-4f11-8014-140c444772101681600939291
+  y = -90
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 323
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 300.0
+  path = resources/cm_textures/sliderback.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -14
+  width = 12
+  action = addtexture
+  actionid = a26c754c-f7ed-47e6-9a55-71693b3761b11681601166190
+  y = -91
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 325
+}
+
+customization {
+  orientation = mid-right
+  grabber_texture_normal = resources/cm_textures/scroll.png
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 300.0
+  scale = 1.0
+  source = config/fancymenu/credits.txt
+  grabber_texture_hover = resources/cm_textures/scroll_hover.png
+  text_border = 1
+  case_mode = normal
+  fadein = true
+  source_mode = local
+  line_spacing = 1
+  fadeinspeed = 1.0
+  x = -133
+  width = 120
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = cb549b95-bcc1-4bb6-90ce-6bf17d8385241681600402202
+  y = -89
+  delayappearance = true
+  alignment = right
+  delayappearanceeverytime = true
+  height = 319
+}
+

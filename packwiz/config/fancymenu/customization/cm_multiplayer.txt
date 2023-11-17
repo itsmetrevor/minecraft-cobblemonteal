@@ -1,0 +1,35 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 0.85
+  source = There is NO official Cobblemon server! You can find servers in #server-listings in our Discord.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -208
+  width = 417
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e2506d37-c200-44b4-bac7-30df10925c8f1697052588517
+  y = 5
+  alignment = centered
+  base_color = FFFF55
+  height = 10
+}
+

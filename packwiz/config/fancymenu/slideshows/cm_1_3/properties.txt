@@ -1,0 +1,11 @@
+type = slideshow
+
+slideshow-meta {
+  name = cm_1_3_update
+  width = 512
+  height = 316
+  x = 0
+  y = 0
+  duration = 6
+  fadespeed = 12.0
+}

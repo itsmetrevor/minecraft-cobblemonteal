@@ -1,0 +1,13 @@
+name = "MoreMons [Cobblemon]"
+filename = "MoreMons - v0.5.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/79zyF4nY/versions/7ziXLrUO/MoreMons%20-%20v0.5.2.zip"
+hash-format = "sha1"
+hash = "14a559c93f04e368dbed3d6ca75229897324f644"
+
+[update]
+[update.modrinth]
+mod-id = "79zyF4nY"
+version = "7ziXLrUO"
