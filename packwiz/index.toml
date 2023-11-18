@@ -118,7 +118,7 @@ hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
 
 [[files]]
 file = "config/carryon-common.json"
-hash = "8b7014cc1d854debf7cc728ba27ad52c1455c5a4b014d4c998895ec36e30a0eb"
+hash = "bd83d293d94ad39f730fafa699055aa044ebb18330cffc5041319f839b76fd09"
 
 [[files]]
 file = "config/cavedust.json"
@@ -621,10 +621,6 @@ file = "config/numismatic-overhaul.json5"
 hash = "9721a8edfaaa0b3a847c3d297d189df5351356dd602f8e8b0a1262439c2282e7"
 
 [[files]]
-file = "config/observable.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
 file = "config/openpartiesandclaims-server.toml"
 hash = "06f8913fbaa6210a05980fe35adb804f0142b8442bd137a9bdc51bb59b163d5b"
 
@@ -670,7 +666,7 @@ hash = "480697ae74306cdcd17eed12a34795b7856f00d183d06ce69fd0fbf046c54c2e"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
-hash = "c01379159740407ac6a4aff539b3d1e6b530b421f2a6091eb5d03cc8dbea3716"
+hash = "13fb740629268b3f6418f2f5d9198d203c891407470fa6a2a975f43575064d20"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin.properties"
@@ -890,7 +886,7 @@ hash = "285fed924cfd0349dbf120a2754431155fea29fd94f49b9de2bc5605fcfbc3c9"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "d00e6ec2b9e705b843b3fefc74b625fb9a5ad37a3db65377298f3a931baddb69"
+hash = "5939426980462a6c4bb500c55c28c356d749ddac1459340d72dab6ecbcbb60dc"
 
 [[files]]
 file = "kubejs/data/AlphabetSoup-v1.zip"
@@ -949,6 +945,10 @@ file = "kubejs/data/unlock all recipes v2.0.6 (MC 1.20-1.20.2).zip"
 hash = "86fd78343c5c3e649d48a622c7b416148deb0b8baa5a9ecb803d622cbbd1a6ba"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/computercraft.js"
+hash = "6c98fa01fc2b40f2cd32a95fc045586ca5dd21301ae012cab8f18f7d9e50eeac"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/grapplemod.js"
 hash = "01d4cdd96c77d3721bab4b759dba5ce7f6f94fb534bf63601464d1ad814f707f"
 
@@ -961,8 +961,8 @@ file = "kubejs/server_scripts/recipes/newrecipes.js"
 hash = "1a942845abd33d40c211aa721aa6e08230f7162625fc314ad24f024c468a5a88"
 
 [[files]]
-file = "kubejs/server_scripts/removeItemsOnce.js"
-hash = "c0152c59f523c8d3eb0212caae43bcdf5920a46526744c21b68ecb23c66b5b6f"
+file = "kubejs/server_scripts/removeItems.js"
+hash = "652655ad8de0a7889d6e19e6d60551ae899bc5dce478fe982c9ba30cdeeb996b"
 
 [[files]]
 file = "kubejs/server_scripts/startingitems.js"
@@ -1086,6 +1086,16 @@ metafile = true
 [[files]]
 file = "mods/cave-dust.pw.toml"
 hash = "31274861cb2f560e5f4a7bb3c1d51b727d885686ce6cc03cca4c861fdc48caf8"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "5e85afc63682051023ddc5f2a943ddfe3fa450eec68abf5cb0b1dcfc56765a1f"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "d94da74c5f4dce9b7b6586f04b3bfe99ff2b2b5298258b8ab9b111c1c126bb67"
 metafile = true
 
 [[files]]
@@ -1484,6 +1494,11 @@ hash = "aec565d92734e89cff9aae713f93ce8013c0edb9b63546dcb4d960e6cbe74730"
 metafile = true
 
 [[files]]
+file = "mods/kaffees_dual_ride.pw.toml"
+hash = "9866c2b994c7b34d462430b04c30e84538414954e6f07462ab7d21aead518e8f"
+metafile = true
+
+[[files]]
 file = "mods/keep-my-soil-tilled.pw.toml"
 hash = "70b0149921dbeb1d2afae1594a38b5664997a729adc6b5fc25689165703dcf46"
 metafile = true
@@ -1671,11 +1686,6 @@ metafile = true
 [[files]]
 file = "mods/nullscape.pw.toml"
 hash = "a8220eb5483e87eef98558fb707d36ced18445e98a98c2cc73b364b27fe595e6"
-metafile = true
-
-[[files]]
-file = "mods/observable.pw.toml"
-hash = "74df338bc4288887833154e79bc1b5e0b44ae79325b98157261eca87643b15ab"
 metafile = true
 
 [[files]]

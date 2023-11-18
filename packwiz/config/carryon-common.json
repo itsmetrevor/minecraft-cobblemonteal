@@ -172,7 +172,8 @@
       "cookingforblockheads:cooking_table",
       "cookingforblockheads:fridge",
       "cookingforblockheads:sink",
-      "powah:*"
+      "powah:*",
+      "lootr:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
