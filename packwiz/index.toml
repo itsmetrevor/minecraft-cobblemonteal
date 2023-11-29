@@ -106,7 +106,7 @@ hash = "b01e857f0dbbe9009e147951cdc20f8fde115e069c7ab2629b4571c115f45eb0"
 
 [[files]]
 file = "config/capture_xp.json"
-hash = "c04b65ed096d167a0576ddae67e815ac5ee332d6fa9714fccd4bc9f68963dab6"
+hash = "a8c4ff33144b14b631b35221644f562febe6cd9d40dbb0614226db69aa5ce7ce"
 
 [[files]]
 file = "config/cardinal-components-api.properties"
@@ -146,7 +146,7 @@ hash = "e97c5f5c05b9c7338bbae84ea73bb0cd63f1617e7e5ad25ae0290c362d840a0a"
 
 [[files]]
 file = "config/cobblemounts.toml"
-hash = "eb11d03b2b97b80ce8b7e41d1bed5e2be9465fffaa9da3dda5d5250263a919ac"
+hash = "fee6726be1548b64dc5bafdc9fa88ff72b117b05a014e33fa94c057a946525fe"
 
 [[files]]
 file = "config/cobbreeding/main.json"
@@ -1114,11 +1114,6 @@ hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
-file = "mods/cobbledex.pw.toml"
-hash = "ce60ba8d8ac75f4fb7a124523e4e0434810f9957eb18d69c3a8103e9d3acc285"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "b9529ad607d0c23ad6d5e4ff21cf1bf1232ef922d5da44cbfe3f903f1a7d09d7"
 metafile = true
@@ -1200,7 +1195,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetics.pw.toml"
-hash = "4ae2086e3bdc76195c5f1ff61c31bb0dfd76cedae51f006ca328f46477837107"
+hash = "44d87dd5adc52a6a3b95a740a32b8dd4123745715756a58e29716947af3e3ec8"
 metafile = true
 
 [[files]]
@@ -1995,12 +1990,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "34d817aa63580593cbb396b292126a39efe48954d6e27d8ba7847a83ab499678"
+hash = "0579ae1315e7594e21f0a0ff5f5aae8b9cb7cfc3d9d89b5acfe42dc59e6a6898"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a743b452f08d80eefc3587070d2c09fe575a8dad634454ce9420c52f54dd72f7"
+hash = "e9b30d4bae96079180d15cad4f67833c526b0983265707529fbf6e09e630b1fa"
 metafile = true
 
 [[files]]
