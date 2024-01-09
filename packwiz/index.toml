@@ -1231,11 +1231,6 @@ hash = "73b57f14646c1b189bc46d07e7dc6537f6eb5b3846862e8c88d6e3ab92e63a73"
 metafile = true
 
 [[files]]
-file = "mods/diagonal-fences.pw.toml"
-hash = "8c9ba86590a759de2ae7fe9160af07f5fa1a6783c91127fc8ca469c0e741a318"
-metafile = true
-
-[[files]]
 file = "mods/dismount-entity.pw.toml"
 hash = "9d025040b01b0fdb3b02a3bd39910fb9e7846a399c221c657d82f55af6bf5f96"
 metafile = true
@@ -1262,7 +1257,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "f374228d3d8ac0ef3fb8aea514df7e7a0059389a0a4fbccb200b33651157b397"
+hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
 metafile = true
 
 [[files]]
@@ -1381,8 +1376,8 @@ hash = "101e648ee6bb09e018e880f0c646b81de2812c99962cb4386859abe299a63b41"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port-fabric.pw.toml"
-hash = "db52b577510efdb6a1620b98e79bce60c2206ca8699513b44fe77ec19892e17d"
+file = "mods/forge-config-api-port.pw.toml"
+hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
 metafile = true
 
 [[files]]
@@ -1417,7 +1412,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "24ce4ba24398f4d0562d16be21b986df01f85e522d4046c0d10e76b8cb439f43"
+hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
 metafile = true
 
 [[files]]
@@ -1572,7 +1567,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "3c0945a312aca06a2185b00cb03ae482949b008d72614497148aa2df301af019"
+hash = "8e42842f48b3227733bafced612212eee2298f567ca599ac6a55b9878ae661da"
 metafile = true
 
 [[files]]
@@ -1612,7 +1607,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "6063147a48c044764c85e6692513c95fc6b7f6c02f17318ad350a63f386c492d"
+hash = "be1f88824f7ceb008ce38ae763a93921db0c27db68577fdb16c29c6a085ec1f3"
 metafile = true
 
 [[files]]
@@ -1722,7 +1717,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "5164f88be36a4c0863a2dd42b3da848452d8119dc0efebb63e3c1f8791c18e3c"
+hash = "7d86c68314998b0854f35128a1a2c45ca8c7e6233a12d39885f76fd12441b6d5"
 metafile = true
 
 [[files]]
@@ -1876,11 +1871,6 @@ hash = "eede133dd250889ed521ba31ace80af20f71d47585a28de1184fe29fde83dad0"
 metafile = true
 
 [[files]]
-file = "mods/things-fabric.pw.toml"
-hash = "69de4325ba4dfcf9dca1b78f54f2aed2a1f47d6353644065b88a2404cfb153a9"
-metafile = true
-
-[[files]]
 file = "mods/threadtweak.pw.toml"
 hash = "dbbeb7a8f32fdbe0d5e44a8c7671ed2297ee8d12d4610500ac54742e70b4fb53"
 metafile = true
@@ -1928,11 +1918,6 @@ metafile = true
 [[files]]
 file = "mods/treeplacer.pw.toml"
 hash = "1936abc06f1ad9e034a463aa612bd6cdd1a7b7c64c9df5d9885f1d022e59477e"
-metafile = true
-
-[[files]]
-file = "mods/trinkets.pw.toml"
-hash = "792155426992079177fe1ee62c1df969fb71540becd719de8efca2ebc6bec896"
 metafile = true
 
 [[files]]
