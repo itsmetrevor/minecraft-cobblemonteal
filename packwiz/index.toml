@@ -986,13 +986,13 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
-file = "mods/audio-extension-for-fancymenu-fabric.pw.toml"
-hash = "94739d90f45aaeb2ed0c512e3bb22550c2bfe8fa0936ff0924d8a65887768867"
+file = "mods/audio-extension-for-fancymenu.pw.toml"
+hash = "2312049a9c3bc94f7d5345847d8f6736fc79e7da820037e25a9b8bdbb4088954"
 metafile = true
 
 [[files]]
-file = "mods/auudio-fabric.pw.toml"
-hash = "fc49e9dbb096656c3045480bb4ad80cbba1c62ea2c7d2d4df0af68ca513252c6"
+file = "mods/auudio.pw.toml"
+hash = "e8504c09fc7466033c4aa815bfc4a7002915c132c4e45d68e7d861263a13be72"
 metafile = true
 
 [[files]]
@@ -1346,8 +1346,8 @@ hash = "e651193b4394351dd5246cf112ccff75efd3053e152cd102fb42d0d7ae8aa018"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu-fabric.pw.toml"
-hash = "5d5f7e25c0bf81c85959112ce08d328c1153320a541775c922002a9829ba556b"
+file = "mods/fancymenu.pw.toml"
+hash = "bfc7c43048164484cd50f017246452fc3a3527201766fdd8b5f0bce6afffcea9"
 metafile = true
 
 [[files]]
@@ -1496,8 +1496,8 @@ hash = "85e5ee80b3d6911217d846c082408fdf008aaf10386032e90a9caed44c89f785"
 metafile = true
 
 [[files]]
-file = "mods/konkrete-fabric.pw.toml"
-hash = "c231d4b9b466397da607196b45f3284b0398c6af2b06cf66b90fa611f4cca69a"
+file = "mods/konkrete.pw.toml"
+hash = "8634fda31069fb5fb246126bef5a273c01845f74b4c0ad0ba394698df815e678"
 metafile = true
 
 [[files]]
