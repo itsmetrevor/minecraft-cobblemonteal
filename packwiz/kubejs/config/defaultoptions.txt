@@ -235,7 +235,7 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.unknown
+key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
