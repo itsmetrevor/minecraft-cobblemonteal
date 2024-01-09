@@ -126,7 +126,7 @@ hash = "d2330ec90f55427e4e995b971ab7799200e115fcf3d9e8d63000c67f04e6a13a"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "8aba5ae60a915acf3d3da36c6fcac2aced1ccd080a9595b2f2aacf4b75f1f5e4"
+hash = "8f0e2222b238f6cc2029b932a8dd1f48f13e6feb1539f5cde8bb94745577a249"
 
 [[files]]
 file = "config/cobblemonchallenge-config.properties"
@@ -878,7 +878,7 @@ hash = "285fed924cfd0349dbf120a2754431155fea29fd94f49b9de2bc5605fcfbc3c9"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "96d237c46e4180681c917a271b7562c9fc855208083f6a76f34f972d9950b6ed"
+hash = "a58cd9cc4fd0b36d5c0a8db49f3ae94b2de6d59090b72025e1950d6ba1e0c874"
 
 [[files]]
 file = "kubejs/data/AlphabetSoup-v1.zip"

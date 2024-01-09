@@ -8,7 +8,7 @@
   "defaultBoxCount": 30,
   "pokemonSaveIntervalSeconds": 30,
   "storageFormat": "nbt",
-  "preventCompletePartyDeposit": false,
+  "preventCompletePartyDeposit": true,
   "mongoDBConnectionString": "mongodb://localhost:27017",
   "mongoDBDatabaseName": "cobblemon",
   "maxVerticalCorrectionBlocks": 64,
