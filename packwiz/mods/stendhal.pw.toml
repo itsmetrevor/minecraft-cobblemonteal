@@ -1,13 +1,13 @@
 name = "Stendhal"
-filename = "stendhal-1.3.9-1.20.jar"
+filename = "stendhal-1.4.1-1.20.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "73b4a337122e714634497a8a137b5bb1e93c5f08"
+hash = "c057dd5c73912e7249c9de4f894c666ef644ff98"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4611857
+file-id = 4864040
 project-id = 463457

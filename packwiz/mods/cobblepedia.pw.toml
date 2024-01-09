@@ -1,13 +1,13 @@
 name = "Cobblepedia [Cobblemon Poképedia]"
-filename = "Cobblepedia-Fabric-0.5.0.jar"
+filename = "Cobblepedia-Fabric-0.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "39253d030eb67bed2a5f6ffe6dbe9e7d3999464f"
+hash = "3c3e6703cd281f293d6bc9746c322d4005a3ce92"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4858191
+file-id = 4911097
 project-id = 850946

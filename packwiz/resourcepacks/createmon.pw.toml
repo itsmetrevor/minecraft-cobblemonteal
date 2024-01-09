@@ -1,13 +1,13 @@
 name = "CreateMon"
-filename = "CreateMon-v1.3.zip"
+filename = "CreateMon-v1.3.2.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e5d9a815d87748fb60d661dbf244fbcd3ec9efeb"
+hash = "b8e59a5a8052e54f55cf124ca8e184066cd33085"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4797645
+file-id = 4990417
 project-id = 818477
