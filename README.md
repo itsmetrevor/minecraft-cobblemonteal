@@ -19,6 +19,6 @@
   * If anything fails to download, cancel the launch and try again.
 
 
-If you're a friend of mine, be sure to ask me for my Cobblemon Teal server address!
+If you're a friend of mine, be sure to ask me for my Cobblemon Teal server address on Discord!
 
 This pack does include a proximity chat mod, so be sure to unmute your mic after you join a server!
