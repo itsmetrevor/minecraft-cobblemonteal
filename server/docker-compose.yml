@@ -4,7 +4,7 @@ services:
 
   cobblemon:
     hostname: cobblemonteal
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:java17-graalvm
     restart: unless-stopped
     volumes:
       - ./data:/data
@@ -23,7 +23,7 @@ services:
       DEBUG: false
       VERSION: 1.20.1
       FABRIC_LAUNCHER_VERSION: 0.11.2
-      FABRIC_LOADER_VERSION: 0.14.24
+      FABRIC_LOADER_VERSION: 0.14.25
       INIT_MEMORY: 1G
       MAX_MEMORY: 14G
 
