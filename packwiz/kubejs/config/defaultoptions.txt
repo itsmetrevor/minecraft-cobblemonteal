@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","presencefootsteps:default_sound_pack","continuity:default","file/Spectral_1.20-v0.5.2.zip","file/VanillaTweaks_r878848.zip","file/bushy-leaves-1-5-3.zip","distinguishedpotions:potion_overrides","file/CreateMon-v1.3.zip","file/Cobblemon Interface b0.8.2.zip","file/MoreMons - v0.5.2.zip","continuity:glass_pane_culling_fix","file/DeCubes_MoMonsPackv1.6.zip","file/[V1.2] Original Pokemon Battle Music.zip","black_icons"]
-incompatibleResourcePacks:["file/bushy-leaves-1-5-3.zip","file/MoreMons - v0.5.2.zip"]
+resourcePacks:["vanilla","fabric","presencefootsteps:default_sound_pack","cobbreeding:pasturefix","distinguishedpotions:potion_overrides","continuity:default","continuity:glass_pane_culling_fix","file/Cobblemon Interface b0.8.4.zip","file/CreateMon-v1.3.2.zip","file/DeCubes_MoMonsPackv1.6.zip","file/MoreMons - v0.5.3.zip","file/Spectral_v0.5.3.zip","file/VanillaTweaks_r878848.zip","file/[V1.2] Original Pokemon Battle Music.zip","file/bushy-leaves-1-5-6.zip"]
+incompatibleResourcePacks:["file/MoreMons - v0.5.3.zip","file/Spectral_v0.5.3.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
