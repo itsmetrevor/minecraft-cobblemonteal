@@ -1436,9 +1436,13 @@ hash = "c79bc97a7a233978a7ecc0dedc6964f30116bc20b8cc6813adebbcef95e33e21"
 metafile = true
 
 [[files]]
-file = "mods/irisshaders.pw.toml"
-hash = "7c0516b8cfa8e9414cd7c3d214a0020761093feb689908a53364492cdde94ea7"
+file = "mods/iris.pw.toml"
+hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
 metafile = true
+
+[[files]]
+file = "mods/irisshaders.pw.toml.OLD"
+hash = "7c0516b8cfa8e9414cd7c3d214a0020761093feb689908a53364492cdde94ea7"
 
 [[files]]
 file = "mods/item-highlighter-fabric.pw.toml"
