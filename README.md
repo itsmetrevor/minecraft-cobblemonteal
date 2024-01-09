@@ -13,7 +13,8 @@
 * Install ATLauncher making sure to leave the Install Java 17 (for ATLauncher) option checked.
 * After ATLauncher launches, go to "Accounts" on the right side menu, and add your Mojang or Microsoft account.
 * Go to "Instances" on the right side menu, then click the import button in the upper left.
-* Copy and paste the following URL into the URL field: `https://github.com/itsmetrevor/minecraft-cobblemonteal/releases/download/MMCPack/Cobblemon.Teal.zip`
+* Copy and paste the following URL into the URL field:  
+  `https://github.com/itsmetrevor/minecraft-cobblemonteal/releases/download/MMCPack/Cobblemon.Teal.zip`
 * Click the Import button, input a name for the pack (or leave it as the "Cobblemon Teal" default).
 * Click the Play button on the newly imported Cobblemon Teal instance, wait for the mods to be downloaded and installed, and play the game!
   * If anything fails to download, cancel the launch and try again.
