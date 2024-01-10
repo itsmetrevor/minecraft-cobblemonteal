@@ -1,10 +1,8 @@
-<p align="center">
+<p align="left">
 <img src="assets/instance.png">
 </p>
 
 ---
-
-
 # Installation
 
 * Download ATLauncher from [https://atlauncher.com/downloads](https://atlauncher.com/downloads)
@@ -23,3 +21,8 @@
 If you're a friend of mine, be sure to ask me for my Cobblemon Teal server address on Discord!
 
 This pack does include a proximity chat mod, so be sure to unmute your mic after you join a server!
+
+---
+# Issues and Troubleshooting
+
+Any known issues or poetential changes can be found at [https://github.com/itsmetrevor/minecraft-cobblemonteal/issues](https://github.com/itsmetrevor/minecraft-cobblemonteal/issues)
