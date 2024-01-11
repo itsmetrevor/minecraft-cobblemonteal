@@ -126,7 +126,7 @@ hash = "d2330ec90f55427e4e995b971ab7799200e115fcf3d9e8d63000c67f04e6a13a"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "8f0e2222b238f6cc2029b932a8dd1f48f13e6feb1539f5cde8bb94745577a249"
+hash = "494efab7a254a53aa99b330e94561988d72e5b6bc5dd25557b63015afbb43a21"
 
 [[files]]
 file = "config/cobblemonchallenge-config.properties"
@@ -570,7 +570,7 @@ hash = "c29d6534724c5535b09a57d1e8f904d7e0c703ef527aaa820345478f069ba85c"
 
 [[files]]
 file = "config/mca.json"
-hash = "0720e5a0f1ca30157f87ec84d34df4933c10461eb26da8e9110aab9bc62ac07a"
+hash = "7f9c4138590ad4f12d8865b76548811c87cab017a3cd2c8889e35b5e6545091a"
 
 [[files]]
 file = "config/midnightlib.json"
